@@ -1,0 +1,21 @@
+ .loader {
+        border: 15px solid lightblue;
+        border-top: 20px solid blue;
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+        animation: spin 2s linear infinite; 
+    }
+    .loader_multi-color {
+        border-bottom: 20px solid red;
+        border-left: 20px solid green;
+        border-right: 20px solid yellow;  
+    }
+    @keyframes spin {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+           transform: rotate(360deg); 
+        }
+    }
